@@ -6,8 +6,8 @@ import { AiOutlineCamera } from "solid-icons/ai";
 import { AiOutlineLock } from "solid-icons/ai";
 import { AiOutlineCreditCard } from "solid-icons/ai";
 import { AiOutlineRight } from "solid-icons/ai";
-import outsideplantLogo from "../assets/outsideplant-long.png";
-import opLogo from "../assets/outsideplant-short.png";
+import outsideplantLogo from "/outsideplant-long.png";
+import opLogo from "/outsideplant-short.png";
 
 interface SidebarProps {
   isOpen: boolean;

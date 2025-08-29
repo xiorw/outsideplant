@@ -113,7 +113,7 @@ const Register: Component = () => {
     <div 
       class="min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center p-4 relative"
       style={{
-        "background-image": "url('src/assets/login-bg.png')"
+        "background-image": "url('/login-bg.png')"
       }}
     >
       {/* Background overlay for better contrast */}
@@ -135,7 +135,7 @@ const Register: Component = () => {
               {/* Logo Image */}
               <div class="mb-3">
                 <img 
-                  src="src/assets/outsideplant-short.png" 
+                  src="/outsideplant-short.png" 
                   alt="outsideplant" 
                   class="h-10 mx-auto"
                 />
@@ -488,7 +488,7 @@ const Register: Component = () => {
             <h1 class="text-4xl lg:text-5xl font-bold mb-7 text-white">
               Let's join{" "}
               <img 
-                src="src/assets/outsideplant-long-white.png" 
+                src="/outsideplant-long-white.png" 
                 alt="outsideplant" 
                 class="inline-block h-9 lg:h-15 align-middle"
               />
